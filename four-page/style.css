@@ -58,6 +58,8 @@ body {
     height: 35rem;
     margin: auto;
     padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
@@ -101,4 +103,24 @@ body {
 
 .spec {
     font-size: 0.8rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.name {
+    margin: auto;
+    font-family: "Roboto";
+    color: #fff;
+    font-size: 1rem;
+}
+
+.for-nums {
+    display: flex;
+    flex-direction: column;
 }
