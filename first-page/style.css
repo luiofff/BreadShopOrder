@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+	scroll-behavior: smooth;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+    color: #fff;
+}
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+body {
+	height: 100%;
+	line-height: 1;
+    background-image: url(/imagesDefolt/MainPageBack.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.navText {
+    font-family: "Roboto";
+    font-size: 1.3rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navText:hover {
+    transition: 0.4s;
+    color: #FF9D0B;
+}
+
+.main-part {
+    padding-top: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mainText {
+    font-family: "Ponter S";
+    font-style: normal;
+    font-weight: 400;
+    color: #FF9D0B;
+    font-size: 4rem;
+}
+
+@media screen and (max-width:463px) {
+    .main-part {
+        padding-top: 22rem;
+    }
+    .mainText {
+        font-size: 2rem;
+    }
+}
