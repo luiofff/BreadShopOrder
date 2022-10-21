@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Ponter S';
+    src: url('PonterS.woff2') format('woff2'),
+        url('PonterS.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ponter S';
+    src: url('PonterX.woff2') format('woff2'),
+        url('PonterX.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
