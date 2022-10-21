@@ -8,5 +8,5 @@ contactsJs.addEventListener("click", () => {
     window.location.href = "/four-page/index.html";
 })
 logoJs.addEventListener("click", () => {
-    window.location.href = "/first-page/index.html";
+    window.location.href = "/index.html";
 })
